@@ -1,0 +1,42 @@
+{
+  "name": "cli-rx",
+  "description": "m1-framework cli rx",
+  "version": "0.1.0",
+  "author": "mohsen mosadegh",
+  "bin": {
+    "cli-rx": "./bin/run"
+  },
+  "bugs": "https://github.com/mazyar/cli-rx/issues",
+  "dependencies": {
+    "@oclif/command": "^1.5.19",
+    "@oclif/config": "^1.14.0",
+    "@oclif/plugin-help": "^2.2.3",
+    "ncp": "^2.0.0"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1.22.2",
+    "rimraf": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/mazyar/cli-rx",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "cli-rx"
+  },
+  "repository": "mazyar/cli-rx",
+  "scripts": {
+    "prepack": "oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  }
+}
