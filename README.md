@@ -19,7 +19,7 @@ $ npm install -g cli-rx
 $ cli-rx COMMAND
 running command...
 $ cli-rx (-v|--version|version)
-cli-rx/0.1.0 win32-x64 node-v12.14.0
+cli-rx/0.2.0 win32-x64 node-v12.14.0
 $ cli-rx --help [COMMAND]
 USAGE
   $ cli-rx COMMAND

@@ -1,7 +1,7 @@
 {
   "name": "cli-rx",
   "description": "m1-framework cli rx",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "mohsen mosadegh",
   "bin": {
     "cli-rx": "./bin/run"
