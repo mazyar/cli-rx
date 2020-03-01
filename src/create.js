@@ -7,13 +7,13 @@ const zip_source_file =
   "https://raw.githubusercontent.com/mazyar/cli-rx/master/rx-panel.zip";
 
 module.exports = ({ proj_name }) => {
-  console.log(proj_name);
+  console.log(`create rx-panel: ${proj_name}`);
   const file = fs.createWriteStream(`${proj_name}.zip`);
   https.get(zip_source_file, response => {
-    response.pipe(file);
+    response.pipe(file);    
     fs.createReadStream(`${proj_name}.zip`).pipe(
-      unzipper.Extract({ path:proj_name })
-    );
+      unzipper.Extract({ path: proj_name })
+    );        
   });
 
   // const dir = `./${proj_name}`;
